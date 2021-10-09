@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentacion", "Presentacion", "{FCF55887-D76B-429A-9032-CC09BBF0C942}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{65759C33-E9C0-46CE-A3D3-E6A0B15A4D88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructura", "Infraestructura", "{05679107-2842-4C0A-A5DC-785CCB31F975}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplicacion", "Aplicacion", "{964C3DE5-412C-44B9-B854-1B8261382E52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistencia", "Persistencia", "{E856B71F-9D01-42B8-AB25-0BF9E6457E1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiciosWeb", "ServiciosWeb", "{1CBD8173-77C9-4AFE-8596-21B68DA0A0B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicios", "Servicios", "{0C20A249-50E7-4E40-AB51-71DBFC0C9147}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canales", "Aplicacion\CanalesElectronicos\Canales.csproj", "{134E9018-C002-4793-B61A-F74F5BFAE5E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canales", "Dominio\CanalesElectronicos\Canales.csproj", "{13E99D8A-4FDC-44F1-969B-805E989D765F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canales", "Infraestructura\Persistencia\CanalesElectronicos\Canales.csproj", "{BC267489-C195-40D5-8D42-1B8DD754A940}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canales.Web", "Presentacion\Canales.Web\Canales.Web.csproj", "{B7A8204D-3C0C-46D5-B62C-EE11D324CCF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{134E9018-C002-4793-B61A-F74F5BFAE5E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{134E9018-C002-4793-B61A-F74F5BFAE5E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{134E9018-C002-4793-B61A-F74F5BFAE5E0}.Debug|x64.ActiveCfg = Debug|x64
+		{134E9018-C002-4793-B61A-F74F5BFAE5E0}.Debug|x64.Build.0 = Debug|x64
+		{134E9018-C002-4793-B61A-F74F5BFAE5E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{134E9018-C002-4793-B61A-F74F5BFAE5E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{134E9018-C002-4793-B61A-F74F5BFAE5E0}.Release|x64.ActiveCfg = Release|x64
+		{134E9018-C002-4793-B61A-F74F5BFAE5E0}.Release|x64.Build.0 = Release|x64
+		{13E99D8A-4FDC-44F1-969B-805E989D765F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E99D8A-4FDC-44F1-969B-805E989D765F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E99D8A-4FDC-44F1-969B-805E989D765F}.Debug|x64.ActiveCfg = Debug|x64
+		{13E99D8A-4FDC-44F1-969B-805E989D765F}.Debug|x64.Build.0 = Debug|x64
+		{13E99D8A-4FDC-44F1-969B-805E989D765F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E99D8A-4FDC-44F1-969B-805E989D765F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E99D8A-4FDC-44F1-969B-805E989D765F}.Release|x64.ActiveCfg = Release|x64
+		{13E99D8A-4FDC-44F1-969B-805E989D765F}.Release|x64.Build.0 = Release|x64
+		{BC267489-C195-40D5-8D42-1B8DD754A940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC267489-C195-40D5-8D42-1B8DD754A940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC267489-C195-40D5-8D42-1B8DD754A940}.Debug|x64.ActiveCfg = Debug|x64
+		{BC267489-C195-40D5-8D42-1B8DD754A940}.Debug|x64.Build.0 = Debug|x64
+		{BC267489-C195-40D5-8D42-1B8DD754A940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC267489-C195-40D5-8D42-1B8DD754A940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC267489-C195-40D5-8D42-1B8DD754A940}.Release|x64.ActiveCfg = Release|x64
+		{BC267489-C195-40D5-8D42-1B8DD754A940}.Release|x64.Build.0 = Release|x64
+		{B7A8204D-3C0C-46D5-B62C-EE11D324CCF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A8204D-3C0C-46D5-B62C-EE11D324CCF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A8204D-3C0C-46D5-B62C-EE11D324CCF1}.Debug|x64.ActiveCfg = Debug|x64
+		{B7A8204D-3C0C-46D5-B62C-EE11D324CCF1}.Debug|x64.Build.0 = Debug|x64
+		{B7A8204D-3C0C-46D5-B62C-EE11D324CCF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A8204D-3C0C-46D5-B62C-EE11D324CCF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7A8204D-3C0C-46D5-B62C-EE11D324CCF1}.Release|x64.ActiveCfg = Release|x64
+		{B7A8204D-3C0C-46D5-B62C-EE11D324CCF1}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E856B71F-9D01-42B8-AB25-0BF9E6457E1B} = {05679107-2842-4C0A-A5DC-785CCB31F975}
+		{1CBD8173-77C9-4AFE-8596-21B68DA0A0B5} = {05679107-2842-4C0A-A5DC-785CCB31F975}
+		{0C20A249-50E7-4E40-AB51-71DBFC0C9147} = {05679107-2842-4C0A-A5DC-785CCB31F975}
+		{134E9018-C002-4793-B61A-F74F5BFAE5E0} = {964C3DE5-412C-44B9-B854-1B8261382E52}
+		{13E99D8A-4FDC-44F1-969B-805E989D765F} = {65759C33-E9C0-46CE-A3D3-E6A0B15A4D88}
+		{BC267489-C195-40D5-8D42-1B8DD754A940} = {E856B71F-9D01-42B8-AB25-0BF9E6457E1B}
+		{B7A8204D-3C0C-46D5-B62C-EE11D324CCF1} = {FCF55887-D76B-429A-9032-CC09BBF0C942}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC25422E-3520-48BC-9AAA-74CE5706AB83}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://10.1.255.115/naos
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Aplicacion\\CanalesElectronicos\\Canales.csproj
+		SccProjectTopLevelParentUniqueName1 = Canales.Web.sln
+		SccProjectName1 = Aplicacion/CanalesElectronicos
+		SccLocalPath1 = Aplicacion\\CanalesElectronicos
+		SccProjectUniqueName2 = Dominio\\CanalesElectronicos\\Canales.csproj
+		SccProjectTopLevelParentUniqueName2 = Canales.Web.sln
+		SccProjectName2 = Dominio/CanalesElectronicos
+		SccLocalPath2 = Dominio\\CanalesElectronicos
+		SccProjectUniqueName3 = Infraestructura\\Persistencia\\CanalesElectronicos\\Canales.csproj
+		SccProjectTopLevelParentUniqueName3 = Canales.Web.sln
+		SccProjectName3 = Infraestructura/Persistencia/CanalesElectronicos
+		SccLocalPath3 = Infraestructura\\Persistencia\\CanalesElectronicos
+		SccProjectUniqueName4 = Presentacion\\Canales.Web\\Canales.Web.csproj
+		SccProjectTopLevelParentUniqueName4 = Canales.Web.sln
+		SccProjectName4 = Presentacion/Canales.Web
+		SccLocalPath4 = Presentacion\\Canales.Web
+	EndGlobalSection
+EndGlobal
